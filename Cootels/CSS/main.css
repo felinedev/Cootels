@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.31rem 0;
+}
+.header .header-items {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo .Logo {
+  fill: #192252;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-nav .nav-items {
+  margin-right: 2.2vw;
+}
+.header-nav .nav-items:last-child {
+  margin-right: 0;
+}
+.header-nav .nav-link {
+  font-size: 1rem;
+  font-family: "Inter-Medium";
+}
+.header-nav .nav-link:hover {
+  border-bottom: 1px solid;
+}
+
+.header-btn .btn {
+  padding: 14px 16px;
+}
+
+.info .content-elem .title {
+  font-size: 3rem;
+}
+
+.content-inner {
+  padding: 80px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content .items-content {
+  width: 50%;
+}
+.content .content-text {
+  margin-top: 20%;
+}
+
+.content-elem .title {
+  font-size: 2.25rem;
+  margin-bottom: 24px;
+}
+.content-elem .text {
+  font-size: 1.13rem;
+  margin-bottom: 16px;
+  padding-right: 10%;
+  width: 78%;
+}
+.content-elem .btn {
+  margin-top: 16px;
+  padding: 16px 32px;
+}
+
+.Benefit .content {
+  margin-left: 8%;
+}
+@media (max-width: 1100px) {
+  .Benefit .content {
+    margin-left: 0;
+  }
+}
+.Benefit .content:first-child {
+  margin-bottom: 32px;
+}
+.Benefit .content-elem .text {
+  padding-right: auto;
+  width: 95%;
+}
+
+.Reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Reservation .content-elem .text {
+  padding-right: auto;
+  width: 100%;
+}
+
+.btn {
+  background-color: #0E1734;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: #1C2E69;
+}
+.btn:active {
+  background-color: #0E1734;
+}
+
+.Reservation-cart {
+  display: flex;
+  margin: 80px 0;
+}
+
+.Cart {
+  text-align: left;
+  margin-right: 24px;
+}
+.Cart:last-child {
+  margin-right: auto;
+}
+.Cart .cart-title {
+  margin: 32px 0 16px 0;
+  font-size: 1.5rem;
+}
+.Cart .cart-text {
+  margin-bottom: 32px;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+}
+.cart-link svg {
+  margin-top: 1px;
+  margin-left: 5px;
+}

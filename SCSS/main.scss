@@ -1,0 +1,45 @@
+@import "colors";
+//block in modules
+@import "blocks/header";
+@import "blocks/main";
+
+
+//* repeat elements
+.btn {
+	background-color: $btn-bg;
+	color: $btn-color;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+
+	&:hover {background-color: $btn-bg-hov;}
+	&:active{background-color: $btn-bg;}
+}
+
+.Reservation-cart{
+	display: flex;
+	// justify-content: space-between;
+	margin: 80px 0;
+}
+.Cart{
+	text-align: left;
+	margin-right: 24px;
+	&:last-child{
+		margin-right: auto;
+	}
+	.cart-title{
+		margin: 32px 0 16px 0;
+		font-size: 1.5rem;
+	}
+	.cart-text{
+		margin-bottom: 32px;
+	}
+}
+.cart-link{
+	display: flex;
+	align-items: center;
+	svg{
+		margin-top: 1px;
+		margin-left: 5px;
+	}
+}

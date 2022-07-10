@@ -95,6 +95,103 @@
   width: 100%;
 }
 
+.Room {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.Room .btn {
+  margin-top: 16px;
+  padding: 16px 32px;
+}
+
+.Room-info {
+  margin: 80px 0 0 0;
+}
+.Room-info a {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.Room-info h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.Room-info p {
+  font-size: 1.13rem;
+  margin: 12px 0 16px 0;
+}
+
+.btns {
+  display: flex;
+  margin-top: 16px;
+}
+.btns .btn {
+  margin-right: 12px;
+}
+.btns .btn:last-child {
+  margin-left: 12px;
+  padding: 16px 0;
+  background: none;
+}
+
+.fq {
+  width: 50%;
+  padding: 40px;
+}
+.fq .fq-items {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 32px 36px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07);
+}
+.fq .fq-items:last-child {
+  margin-bottom: auto;
+}
+
+.fq-up {
+  display: flex;
+  justify-content: space-between;
+}
+.fq-up .fq-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.fq-up .fq-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #FFECE2;
+}
+.fq-up .btn-svg {
+  stroke: #FF620A;
+}
+
+.fq-down {
+  display: none;
+  max-width: 516px;
+}
+.fq-down .fq-text {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.fq-items--active .btn-svg {
+  stroke: #fff;
+  transform: rotateZ(180deg);
+}
+.fq-items--active .fq-btn {
+  background-color: #FF620A;
+}
+.fq-items--active .fq-down {
+  display: block;
+}
+
 .btn {
   background-color: #0E1734;
   color: #FFFFFF;

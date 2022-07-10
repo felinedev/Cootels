@@ -65,6 +65,43 @@
 			width: 100%;
 		}
 	}
-
 }
 
+// Rooms-block styles
+.Room{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0;
+	.btn{
+		margin-top: 16px;
+		padding: 16px 32px;	
+	}
+}
+.Room-info{
+	margin: 80px 0 0 0;
+	a{
+		font-size: 1rem;
+		margin-bottom: 12px;
+	}
+	h1{
+		font-size: 2rem;
+		margin-bottom: 12px;
+	}
+	p{
+		font-size: 1.13rem;
+		margin: 12px 0 16px 0;
+	}
+}
+.btns{
+	display: flex;
+	margin-top: 16px;
+	.btn{
+		margin-right: 12px;
+		&:last-child{
+			margin-left: 12px;
+			padding: 16px 0;
+			background: none;
+		}
+	}
+}
+@import "../element/_Fq-styles.scss";

@@ -58,7 +58,6 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-
 	.content-elem{
 		.text{
 			padding-right: auto;
@@ -66,7 +65,32 @@
 		}
 	}
 }
-
+.Reservation-cart{
+	display: flex;
+	margin: 80px 0;
+}
+.Cart{
+	text-align: left;
+	margin-right: 24px;
+	&:last-child{
+		margin-right: auto;
+	}
+	.cart-title{
+		margin: 32px 0 16px 0;
+		font-size: 1.5rem;
+	}
+	.cart-text{
+		margin-bottom: 32px;
+	}
+}
+.cart-link{
+	display: flex;
+	align-items: center;
+	svg{
+		margin-top: 1px;
+		margin-left: 5px;
+	}
+}
 // Rooms-block styles
 .Room{
 	display: flex;

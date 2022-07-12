@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-SemiBold";
 }
 
-p, span, a {
+p, span, a, q {
   color: #848FAC;
 }
 
-p, span {
+p, span, q {
   font-family: "Inter-Regular";
 }
 

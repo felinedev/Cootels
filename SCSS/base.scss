@@ -7,8 +7,8 @@ h1,h2,h3,h4,h5,h6{
 	color: $h1;
 	font-family: 'Montserrat-SemiBold';
 }
-p,span,a{color: $p;}
-p,span{font-family: 'Inter-Regular';}
+p,span,a,q{color: $p;}
+p,span,q{font-family: 'Inter-Regular';}
 button{
 	font-family: 'Inter-Medium';
 }

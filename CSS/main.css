@@ -241,29 +241,32 @@
   justify-content: center;
 }
 
-.Touche-slider {
+.slider {
   position: relative;
-  width: 790px;
-  height: 468px;
+  width: 750px;
+  height: 100%;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   touch-action: pan-y;
 }
-.Touche-slider img {
+.slider img {
   pointer-events: none;
 }
-.Touche-slider .list-sliders {
-  width: 790px;
+.slider .list-sliders {
+  width: 750px;
   height: 431px;
   overflow: hidden;
 }
-.Touche-slider .slider-track {
+.slider .slider-track {
   display: flex;
+  transition: 1s;
+  position: relative;
+  left: 0;
 }
-.Touche-slider .slide {
-  width: 790px;
+.slider .slide {
+  width: 750px;
   height: 431px;
   flex-shrink: 0;
 }
@@ -273,6 +276,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  position: relative;
 }
 .slide .title-slider {
   font-size: 2.25rem;
@@ -294,12 +298,11 @@
   font-size: 1.3rem;
 }
 
-.inp-list {
+.slider-indicator {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.inp-list .castom-inp {
+.slider-indicator .indicator {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -307,20 +310,17 @@
   margin: 0;
   margin-right: 12px;
 }
-.inp-list .castom-inp:last-child {
+.slider-indicator .indicator:last-child {
   margin-right: 0;
 }
-.inp-list .castom-inp:hover {
-  width: 12px;
-  height: 12px;
+.slider-indicator .indicator:hover {
+  transform: scale(1.5);
   background-color: rgb(250, 176, 71);
 }
-.inp-list .inp-radio {
-  visibility: hidden;
-}
-
-.castom-inp.checked {
-  width: 12px;
-  height: 12px;
+.slider-indicator .indicator.active {
   background-color: rgb(250, 176, 71);
+  transform: scale(1.5);
+}
+.slider-indicator .indicator:active {
+  background-color: rgba(250, 176, 71, 0.35);
 }

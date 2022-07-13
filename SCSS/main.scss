@@ -22,37 +22,37 @@
 	justify-content: center;
 }
 
-.Touche-slider{
+.slider{
 	position: relative;
-	width: 790px;
-	height: 468px;
-
+	width: 750px;
+	height: 100%;
 	user-select: none;
 	touch-action: pan-y;
 	
-	img{
-		pointer-events: none;
-	}
+	img{pointer-events: none;}
 	.list-sliders{
-		width: 790px;
+		width: 750px;
 		height: 431px;
 		overflow: hidden;
 	}
 	.slider-track{
 		display: flex;
+		transition: 1s;
+		position: relative;
+		left: 0;
 	}
 	.slide{
-		width: 790px;
+		width: 750px;
 		height: 431px;
 		flex-shrink: 0;
 	}
 }
-
 .slide{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	position: relative;
 
 	.title-slider{
 		font-size: 2.25rem;
@@ -74,32 +74,27 @@
 		font-size: 1.3rem;
 	}
 }
-
-.inp-list{
+.slider-indicator{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 
-	.castom-inp{
+	.indicator{
 		width: 8px;
 		height: 8px;
 		border-radius: 50%;
 		background-color: rgba(250, 176, 71, 0.35);
 		margin: 0;
 		margin-right: 12px;
-		&:last-child{
-			margin-right: 0;
-		}
+
+		&:last-child{margin-right: 0;}
 		&:hover{
-			width: 12px;
-			height: 12px;
+			transform: scale(1.5);
 			background-color: rgba(250, 176, 71);
 		}
+		&.active{
+			background-color: rgba(250, 176, 71);
+			transform: scale(1.5);
+		}
+		&:active{background-color: rgba(250, 176, 71, 0.35);}
 	}
-	.inp-radio{visibility: hidden;}
-}
-.castom-inp.checked{
-	width: 12px;
-	height: 12px;
-	background-color: rgba(250, 176, 71);
 }

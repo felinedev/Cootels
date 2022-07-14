@@ -3,7 +3,14 @@ header, main {
 }
 
 footer {
-  padding: 0px 8.333vw;
+  padding: 8.333vw;
+}
+
+footer h1 {
+  font-family: "Inter-Bold";
+}
+footer a, footer p {
+  font-family: "Inter-Regular";
 }
 
 h1, h2, h3, h4, h5, h6 {

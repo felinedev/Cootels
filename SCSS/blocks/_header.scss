@@ -8,9 +8,8 @@
 		display: flex;
 		align-items: center;
 	}
-}
-.header-logo {
-	.Logo {fill: $h1;}
+	.logo-svg{fill: $h1;}
+	.btn{padding: 14px 16px;}
 }
 .header-nav {
 	display: flex;
@@ -23,7 +22,4 @@
 
 		&:hover{border-bottom: 1px solid;}
 	}
-}
-.header-btn {
-	.btn{padding: 14px 16px;}
 }

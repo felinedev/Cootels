@@ -1,7 +1,11 @@
 @import "colors";
 
 header,main {margin: 0px 8.333vw;}
-footer {padding: 0px 8.333vw;}
+footer {padding: 8.333vw;}
+footer{
+	h1{font-family: 'Inter-Bold';}
+	a,p{font-family: 'Inter-Regular';}
+}
 //* main-color
 h1,h2,h3,h4,h5,h6{
 	color: $h1;

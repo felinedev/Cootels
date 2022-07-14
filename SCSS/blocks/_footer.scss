@@ -1,0 +1,34 @@
+footer{
+	background-color: $footer-bg;
+	display: flex;
+	justify-content: space-between;
+
+	.logo-svg{fill: #fff;}
+}
+.Cootels-info{
+	p{
+		color: $footer-text;
+		margin: 24px 0;
+	}
+	.socialNetworks-item>a{
+		margin-right: 24px;
+		&:last-child{margin-right: auto;}
+	}
+}
+.footer-link{
+	display: flex;
+
+	h1{color: $footer-h1;}
+	a{color: $footer-text;
+		&:hover{border-bottom: 1px solid;}
+	}
+	h1,a{font-size: 1rem;}
+	.link-items{
+		margin-right: 7.639vw;
+		h1,p{
+			margin-bottom: 24px;
+			&:last-child{margin-bottom: auto;}
+		}
+		&:last-child{margin-right: auto;}
+	}
+}

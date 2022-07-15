@@ -15,4 +15,25 @@
 	&:hover {background-color: $btn-bg-hov;}
 	&:active{background-color: $btn-bg;}
 }
+//* Content
+.content-inner {padding: 80px 0;}
+.content {
+	display: flex;
+	justify-content: space-between;
 
+	.items-content{width: 50%;}
+	.content-text{margin-top: 20%;}
+}
+.content-elem {
+	.title {
+		font-size: 2.25rem;
+		margin-bottom: 24px;
+	}.text {
+		font-size: 1.13rem;
+		margin-bottom: 16px;
+		padding-right: 10%;
+		width: 78%;
+	}.btn {
+		margin-top: 16px;
+		padding: 16px 32px;
+}}

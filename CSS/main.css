@@ -35,43 +35,10 @@
   font-size: 3rem;
 }
 
-.content-inner {
-  padding: 80px 0;
-}
-
-.content {
+.Benefit .Benefit-imgItem {
   display: flex;
-  justify-content: space-between;
-}
-.content .items-content {
-  width: 50%;
-}
-.content .content-text {
-  margin-top: 20%;
-}
-
-.content-elem .title {
-  font-size: 2.25rem;
-  margin-bottom: 24px;
-}
-.content-elem .text {
-  font-size: 1.13rem;
-  margin-bottom: 16px;
-  padding-right: 10%;
-  width: 78%;
-}
-.content-elem .btn {
-  margin-top: 16px;
-  padding: 16px 32px;
-}
-
-.Benefit .content {
-  margin-left: 8%;
-}
-@media (max-width: 1100px) {
-  .Benefit .content {
-    margin-left: 0;
-  }
+  flex-direction: row-reverse;
+  margin-right: 3%;
 }
 .Benefit .content:first-child {
   margin-bottom: 32px;
@@ -369,4 +336,34 @@ footer .logo-svg {
 }
 .btn:active {
   background-color: #0E1734;
+}
+
+.content-inner {
+  padding: 80px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content .items-content {
+  width: 50%;
+}
+.content .content-text {
+  margin-top: 20%;
+}
+
+.content-elem .title {
+  font-size: 2.25rem;
+  margin-bottom: 24px;
+}
+.content-elem .text {
+  font-size: 1.13rem;
+  margin-bottom: 16px;
+  padding-right: 10%;
+  width: 78%;
+}
+.content-elem .btn {
+  margin-top: 16px;
+  padding: 16px 32px;
 }

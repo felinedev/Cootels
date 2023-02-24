@@ -1,3 +1,3 @@
 # Cootels
 
-# link: https://maksimlutsenko.github.io/Cootels/
+# link: https://felinedev.github.io/Cootels/
